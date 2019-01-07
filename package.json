@@ -60,7 +60,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "cucumber": "node_modules/.bin/babel-node node_modules/.bin/cucumber-js"
+    "cucumber": "node_modules/.bin/babel-node node_modules/.bin/cucumber-js",
+    "otherCucumber": "./node_modules/.bin/cucumber-js --require-module @babel/register"
   },
   "eslintConfig": {
     "extends": "react-app"
