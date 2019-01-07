@@ -57,7 +57,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "cucumber": "./node_modules/.bin/cucumber-js"
   },
   "eslintConfig": {
     "extends": "react-app"
